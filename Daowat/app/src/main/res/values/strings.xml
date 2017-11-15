@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Daowat</string>
+    <string name="action_settings1">Settings1</string>
+    <string name="action_settings2">Settings2</string>
+    <string name="signinTextLable">Sign In</string>
+    <string name="loginTextLable">Log In</string>
+    <string name="red_String">Red</string>
+    <string name="yellow_string">Yellow</string>
+    <string name="green_string">Green</string>
+</resources>

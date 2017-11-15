@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hangman</string>
+
+    <string name="prompt_text">Guess the word below:</string>
+    <string name="word">Here goes nothing</string>
+    <string name="action_settings">Settings</string>
+</resources>

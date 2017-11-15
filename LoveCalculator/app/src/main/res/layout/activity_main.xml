@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your name"
+        android:id="@+id/yourNameLabel"
+        android:layout_alignBaseline="@+id/yourNameField"
+        android:layout_alignBottom="@+id/yourNameField"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourNameField"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/yourNameLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your goat&apos;s name"
+        android:id="@+id/yourGoatNameLabel"
+        android:layout_below="@+id/yourNameField"
+        android:layout_toLeftOf="@+id/yourNameField"
+        android:layout_toStartOf="@+id/yourNameField" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yourGoatNameField"
+        android:layout_alignBottom="@+id/yourGoatNameLabel"
+        android:layout_toRightOf="@+id/yourGoatNameLabel"
+        android:layout_alignRight="@+id/yourNameField"
+        android:layout_alignEnd="@+id/yourNameField" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Love"
+        android:id="@+id/calculateLoveButton"
+        android:layout_below="@+id/yourGoatNameLabel"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/yourGoatNameLabel"
+        android:layout_toEndOf="@+id/yourGoatNameLabel"
+        android:onClick="handleCalculateLove" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your love for your goat is X%"
+        android:id="@+id/loveLabel"
+        android:layout_below="@+id/calculateLoveButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/calculateLoveButton"
+        android:layout_alignEnd="@+id/calculateLoveButton" />
+
+</RelativeLayout>

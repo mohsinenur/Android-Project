@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daowat.tablignews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tongi_ijtima"
+            android:label="@string/title_activity_tongi_ijtima"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".five_days_jor"
+            android:label="@string/title_activity_five_days_jor"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ijtima_date_2017"
+            android:label="@string/title_activity_ijtima_date_2017"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".jor_date_2016"
+            android:label="@string/title_activity_jor_date_2016"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".first_sec_district_2017"
+            android:label="@string/title_activity_first_sec_district_2017"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ijtima_date_2016"
+            android:label="@string/title_activity_ijtima_date_2016"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".first_sec_map_2017"
+            android:label="@string/title_activity_first_sec_map_2017"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".second_sec_map_2017"
+            android:label="@string/title_activity_second_sec_map_2017"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".first_sec_map_2016"
+            android:label="@string/title_activity_first_sec_map_2016"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".second_sec_map_2016"
+            android:label="@string/title_activity_second_sec_map_2016"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ijtima_date_2015"
+            android:label="@string/title_activity_ijtima_date_2015"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".total_khuruj_2015"
+            android:label="@string/title_activity_total_khuruj_2015"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".total_khuruj_2014"
+            android:label="@string/title_activity_total_khuruj_2014"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".jor_date_2015" />
+        <activity android:name=".ijtima_info_nmbr" />
+        <activity android:name=".msg_otherinfo" />
+        <activity android:name=".ijtimamsg2017"></activity>
+    </application>
+
+</manifest>

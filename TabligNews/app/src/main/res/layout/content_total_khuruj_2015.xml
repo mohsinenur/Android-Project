@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:focusable="false"
+    android:background="#ac61008e">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="২০১৫ ইজতিমার খুরুজ"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/text_total_khuruj_2015"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:id="@+id/image_total_khuruj_2015"
+                android:scaleType="fitXY"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/image2"
+                android:layout_below="@+id/text_total_khuruj_2015"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" ইজতিমা ২০১৪ ও ২০১৫ খুরুজের তুলনা"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/text_total_khuruj_2014"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/image_total_khuruj_2015"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_khuruj_compare1_2014_2015"
+                android:scaleType="fitXY"
+                android:paddingTop="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/image4"
+                android:layout_below="@+id/text_total_khuruj_2014"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_khuruj_compare2_2014_2015"
+                android:scaleType="fitXY"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/image5"
+                android:layout_below="@+id/image_khuruj_compare1_2014_2015"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_khuruj_compare3_2014_2015"
+                android:scaleType="fitXY"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/image9"
+                android:layout_below="@+id/image_khuruj_compare2_2014_2015"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_khuruj_compare4_2014_2015"
+                android:scaleType="fitXY"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/image8"
+                android:layout_below="@+id/image_khuruj_compare3_2014_2015"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

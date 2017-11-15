@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">তাবলীগী বার্তা</string>
+    <string name="title_activity_tongi_ijtima">টঙ্গী ইজতিমা</string>
+    <string name="title_activity_five_days_jor"> পুরান সাথীদের ৫ দিনের জোড়</string>
+    <string name="title_activity_ijtima_date_2017">ইজতিমা ২০১৭</string>
+    <string name="title_activity_jor_date_2016">জোড় ২০১৬</string>
+    <string name="title_activity_first_sec_district_2017">জেলা সমূহ</string>
+    <string name="title_activity_second_sec_district_2017">জেলা সমূহ</string>
+    <string name="title_activity_second_sec_district_2016">জেলা সমূহ</string>
+    <string name="title_activity_first_sec_district_2016">জেলা সমূহ</string>
+    <string name="title_activity_ijtima_date_2016">ইজতিমা ২০১৬</string>
+    <string name="title_activity_first_sec_map_2017">২০১৭ ইজতিমার ১ম ধাপের ম্যাপ</string>
+    <string name="title_activity_second_sec_map_2017">২০১৭ ইজতিমার ২য় ধাপের ম্যাপ </string>
+    <string name="title_activity_first_sec_map_2016">ম্যাপ ২০১৬</string>
+    <string name="title_activity_second_sec_map_2016">ম্যাপ ২০১৬</string>
+    <string name="title_activity_second_sec_map_2015">২য় ধাপের ম্যাপ</string>
+    <string name="title_activity_ijtima_date_2015">ইজতিমা ২০১৫</string>
+    <string name="title_activity_ijtima_date_2014">ইজতিমা ২০১৪</string>
+    <string name="title_activity_total_khuruj_2015">খুরুজ বিবরন ২০১৫</string>
+    <string name="title_activity_total_khuruj_2014">খুরুজ বিবরন ২০১৪</string>
+    <string name="title_activity_khuruj_compare_2015_2014">ইজতিমা ২০১৪ ও ২০১৫ খুরুজের তুলনা</string>
+    <string name="title_activity_ijtimamsg2017">জিম্মাদার সাথীদের উদ্দেশ্যে চিঠি</string>
+</resources>

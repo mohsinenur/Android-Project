@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:focusable="false"
+    android:background="@drawable/background_two">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp"
+            android:paddingBottom="16dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২০১৫ খুরুজ বিবরন"
+                android:id="@+id/button_total_khuruj_2015"
+                android:background="#a01ee2a7"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ইজতিমা ২০১৪ ও ২০১৫ খুরুজের তুলনা"
+                android:id="@+id/button_khuruj_compare_2015"
+                android:layout_below="@+id/button_total_khuruj_2015"
+                android:background="#a01ee2a7"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

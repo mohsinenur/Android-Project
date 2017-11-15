@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/messi1232131"
+    android:clickable="true">
+
+    <TextView android:text="@string/prompt_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_ _ _ _ _"
+        android:id="@+id/word"
+        android:layout_below="@+id/prompt_text"
+        android:layout_alignLeft="@+id/prompt_text"
+        android:layout_alignStart="@+id/prompt_text"
+        android:layout_alignRight="@+id/prompt_text"
+        android:layout_alignEnd="@+id/prompt_text" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/word"
+        android:layout_alignLeft="@+id/word"
+        android:layout_alignStart="@+id/word">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/aButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/bButton"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/cButton"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/dButton"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/eButton"
+            android:layout_row="0"
+            android:layout_column="4" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/fButton"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:id="@+id/hButton"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/iButton"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J"
+            android:id="@+id/jButton"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+            android:id="@+id/kButton"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:id="@+id/lButton"
+            android:layout_row="1"
+            android:layout_column="4"
+            android:onClick="handleButtonClick" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/gButton"
+            android:layout_row="0"
+            android:layout_column="6"
+            android:onClick="handleButtonClick" />
+    </GridLayout>
+
+</RelativeLayout>

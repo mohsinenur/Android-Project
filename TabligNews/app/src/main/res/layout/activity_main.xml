@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_one">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="16dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="পুরান সাথীদের ৫ দিনের জোড়"
+            android:id="@+id/button_5_days_jor"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:background="#a0f2427d"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="টঙ্গী ইজতিমা"
+            android:id="@+id/button_tongi_ijtima"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:background="#a0f2427d"
+            android:onClick="onClick"
+            android:textColor="#fff"
+            android:layout_below="@+id/button_5_days_jor"
+            android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অন্যান্য তথ্য "
+                android:id="@+id/button_info_nmbr"
+                android:padding="10dp"
+                android:layout_margin="20dp"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:background="#a0f2427d"
+                android:onClick="onClick"
+                android:textColor="#fff"
+                android:layout_below="@+id/button_tongi_ijtima"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

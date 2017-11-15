@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:focusable="false"
+    android:background="@drawable/background_three">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:paddingBottom="16dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ইজতিমা ২০১৭"
+            android:id="@+id/button_ijtima_2017"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#a0172dc2"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ইজতিমা ২০১৬"
+            android:id="@+id/button_ijtima_2016"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#a0172dc2"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/button_ijtima_2017"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ইজতিমা ২০১৫"
+            android:id="@+id/button_ijtima_2015"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#a0172dc2"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/button_ijtima_2016"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ইজতিমা ২০১৪"
+            android:id="@+id/button_ijtima_2014"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="#a0172dc2"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/button_ijtima_2015"
+            android:textColor="#fff" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

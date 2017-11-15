@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_three">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="জোড় ২০১৬"
+        android:id="@+id/button_jor_2016"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#57172DC2"
+        android:layout_alignParentTop="true"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="জোড় ২০১৫"
+        android:id="@+id/button_jor_2015"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#57172DC2"
+        android:layout_below="@+id/button_jor_2016"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

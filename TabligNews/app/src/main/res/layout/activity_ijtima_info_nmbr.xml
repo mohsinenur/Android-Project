@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ijtima_info_nmbr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daowat.tablignews.ijtima_info_nmbr"
+    android:background="#ea710151">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="দরকারী নাম ও ফোন নাম্বার"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:id="@+id/info_n_nmbr_txt1"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:textColor="#fff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মাইক সংক্রান্তঃ "
+                android:id="@+id/info_n_nmbr_txt2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/info_n_nmbr_txt1"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ভাই মোঃ আশরাফ - ০১৭৩০৩৩৫০৮০, ভাই মোঃ খালেদ - ০১৯১২১১৯৫৪৯"
+                android:id="@+id/info_n_nmbr_txt3"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/info_n_nmbr_txt2"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="বিদ্যুৎ সংক্রান্তঃ "
+                android:id="@+id/info_n_nmbr_txt4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/info_n_nmbr_txt3"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ভাই আমিনুর খান পরশ - ০১৭১৫০৮৯৭০২"
+                android:id="@+id/info_n_nmbr_txt5"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/info_n_nmbr_txt4"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="সাফাই সংক্রান্তঃ "
+                android:id="@+id/info_n_nmbr_txt6"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/info_n_nmbr_txt5"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ভাই ফকির আতাউর রহমান - ০১৭১১৮৬৮৯৪৪"
+                android:id="@+id/info_n_nmbr_txt7"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/info_n_nmbr_txt6"
+                android:textColor="#ffffff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মাইক সংক্রান্তঃ "
+                android:id="@+id/info_n_nmbr_txt8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/info_n_nmbr_txt7"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ভাই মোঃ আবু সিদ্দীক - ০১৭১১৫৩৬১৩৬, ভাই খাদেমুল ইসলাম - ০১৮১৭৫৯০৪৫০"
+                android:id="@+id/info_n_nmbr_txt9"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/info_n_nmbr_txt8"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
